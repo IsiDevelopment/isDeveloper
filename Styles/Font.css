@@ -1,13 +1,14 @@
-﻿*{
-    margin:0px;
-    padding:0px;
-}
-#image{
+﻿
+#image_font{
     position:relative;
     z-index:-1;
-
+    height:100%;
+    width:100%;
+    margin:-5% 0%;
+    opacity: 0.9;
+    filter: grayscale(5%);
 }
-#content{
+#content_font{
     height:1000px;
     width:100%;
     margin-top:-10px;
@@ -16,7 +17,7 @@
     z-index:-1;
 }
 
-#title {
-    font-size: 60px;
-    color:white;
+#title_font {
+    font-size: 5vw;
+    color: #055FF3;
 }
