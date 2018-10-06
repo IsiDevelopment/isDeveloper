@@ -2,63 +2,69 @@
 
 <html>
 <head >
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <link href="Styles/HeaderLine.css" rel="stylesheet"/>
+  <script src="JavaScript/parallax_effect.js"></script>
   <link href="Styles/Font.css" rel="stylesheet"/>
-  <title>Prueba</title>
+  <link href="Styles/header.css" rel="stylesheet"/>
+  <title>iDeveloper</title>
+
 </head>
 <body>
-  <div>
-    <div class="container">
-      <div class="btn-group">
-        <button type="button" class="btn btn-primary" onclick="alerts();">iDeveloper</button>
-        <button type="button" class="btn btn-primary">Who we are</button>
-        <button type="button" class="btn btn-primary" onclick="alerts();">About</button>
-        <button type="button" class="btn btn-primary">Contact us</button>
-        <div class="btn-group">
-          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-          Sony
-          </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">E-mail</a>
-            <a class="dropdown-item" href="#">CellPhone</a>
-          </div>
-        </div>
+
+  <nav class="navbar navbar-inverse" id="header"><!--  style="background-color: blue" -->
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">iDeveloper</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Inicio</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" style="color:white; black" data-toggle="dropdown" href="#">
+              Acerca de iDeveloper<span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Page 1-1</a></li>
+              <li><a href="#">Page 1-2</a></li>
+              <li><a href="#">Page 1-3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Servicios</a></li>
+
+          <li><a href="#">Contáctanos</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
       </div>
     </div>
+  </nav>
+  <div>
+    <img src="Images/computer2.jpg" id="image_font"/>
     <div>
-      <img src="Images/computer2.jpg" id="image" style="height:100%; width:100%; margin:-13% 0%" />
-      <div class="centered"><p id="title">Welcome to iDeveloper</p></div>
-    </div>"
-  </div>
-  <!--
-  <div id="content">
-    <div>
-      <button onmouseover="hideL()">Hola</button>
-      <input type="button" value="button" onclick="h();" onmouseover="hideL()" onmouseout="appear()" />
-      <input id="c" title="Hola" type="text" placeholder="Esto sera reemplzado"/>
-      <input id="label" type="text" value="<%= Session.Timeout %>" />
+      <p id="title_font">iDeveloper Servicios</p>
     </div>
-    xcvxgdfg
-    <h1>Parallax Effect</h1>
-
-      <h1>Parallax Effect</h1>
-      <h1>Parallax Effect</h1>
   </div>
--->
-
+  <div id="content_font">
+    <div>
+      asdjna<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>asasfasf<br/><br/>sdjlfnsdjfn
+    </div>
+  </div>
   <footer
-    <p><a href="#">iDeveloper Servicios - Página oficial</a></p>
+    <p><a href="#">iDeveloper Services - Website</a></p>
   </footer>
 
-  <script type="text/javascript" src="../JavaScript/jquery.min.js"></script>
-  <script type="text/javascript" src="../JavaScript/jquery-3.3.1.js"></script>
-  <script type="text/javascript" src="../JavaScript/parallax_effect.js"></script>
-  <script type="text/javascript" src="../JavaScript/actionsButton.js"></script>
 </body>
 </html>
