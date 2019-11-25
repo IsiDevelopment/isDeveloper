@@ -1,0 +1,13 @@
+.blackButAdvantage{
+  background: black;
+  color: white;
+  border-radius: 5px;
+  width: 99%;
+  border: none;
+  padding: 8px 0;
+}
+.blackButAdvantage:hover{
+  background: white;
+  color: black;
+  border: 1px solid black;
+}

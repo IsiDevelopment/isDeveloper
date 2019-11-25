@@ -1,0 +1,17 @@
+.textAdvantagesTitle{
+  font-size: 20px;
+  color: black;
+}
+.textAdvantagesSubtitle{
+  font-size: 17px;
+  color: #707070;
+}
+.textCenter{
+  text-align: center !important;
+}
+.advantagePaddingTitle{
+  padding: 8px 0;
+}
+.advantagePaddingSubitle{
+  padding: 0 10px 10px 10px;
+}
