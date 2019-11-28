@@ -1,3 +1,29 @@
 .advantageBgGray{
   background: #e9e4e8;
 }
+.advantageBgGrayImage{
+  background: url(../img/bgGray.png);
+}
+.advantageBgGreen{
+  background: #9De1fe;
+}
+.yellowBg{
+  background: #EEEE19;
+}
+.blackImageBg{
+  background: url(../img/bg-content.jpg);
+}
+
+.linearBgBlue{
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(115deg, #013A6B 40%, #004E95 10%);
+}
+
+.linearBgBlacckGray{
+  background-color: #f7f7f7;
+  background-image: -webkit-linear-gradient(0deg, #f7f7f7 26.5%, #241c1a);
+}
+.grayBg{
+  background: #f7f7f7;
+  color: #3f3844;
+}
