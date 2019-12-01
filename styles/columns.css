@@ -6,6 +6,11 @@
   float: left;
   width: 5%;
 }
+.column5HomeContact{
+  float: left;
+  width: 5%;
+}
+
 .column10-5{
   float: left;
   width: 10.5%;
@@ -21,6 +26,22 @@
 .column20{
   float: left;
   width: 20%;
+}
+.column20HomeContactButton{
+  float: left;
+  width: 20%;
+}
+.column25HomeContact{
+  float: left;
+  width: 25%;
+}
+.column55HomeContact{
+  float: left;
+  width: 55%;
+}
+.column60HomeContactButton{
+  float: left;
+  width: 60%;
 }
 .column80{
   float: left;

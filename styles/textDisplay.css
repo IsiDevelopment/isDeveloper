@@ -15,3 +15,16 @@
 .advantagePaddingSubitle{
   padding: 0 10px 10px 10px;
 }
+.textHomeContactTitle{
+  color: #F25C27;
+  font-size: 48px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.textHomeContactInfo{
+  font-size: 15px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}

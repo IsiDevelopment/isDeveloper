@@ -21,7 +21,7 @@
 
 .linearBgBlacckGray{
   background-color: #f7f7f7;
-  background-image: -webkit-linear-gradient(0deg, #f7f7f7 26.5%, #241c1a 0%);
+  background-image: -webkit-linear-gradient(0deg, #f7f7f7 35%, #241c1a 0%);
 }
 .grayBg{
   background: #f7f7f7;
