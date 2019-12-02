@@ -40,3 +40,19 @@
   color: black;
   border: 1px solid black;
 }
+.butProductDownloadPDV{
+  background: black;
+  color: white;
+  width: 98%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.butProductDownloadPDV:hover{
+  background: white;
+  color: black;
+  border: 1px solid black;
+}

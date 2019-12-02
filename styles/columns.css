@@ -1,31 +1,7 @@
-.column4{
-  float: left;
-  width: 4%;
-}
-.column5{
-  float: left;
-  width: 5%;
-}
+/* HOME > CONTACT */
 .column5HomeContact{
   float: left;
   width: 5%;
-}
-
-.column10-5{
-  float: left;
-  width: 10.5%;
-}
-.column9{
-  float: left;
-  width: 10%;
-}
-.column16{
-  float: left;
-  width: 16%;
-}
-.column20{
-  float: left;
-  width: 20%;
 }
 .column20HomeContactButton{
   float: left;
@@ -42,6 +18,84 @@
 .column60HomeContactButton{
   float: left;
   width: 60%;
+}
+.column3ProductPDVInclude{
+  float: left;
+  width: 3%;
+}
+/* PRODUCT > PDV > INFO */
+.column2ProductPDV{
+  float: left;
+  width: 2%;
+}
+.column3ProductPDV{
+  float: left;
+  width: 3%;
+}
+.column30ProductPDV{
+  float: left;
+  width: 30%;
+}
+.column30ProductPDVDownload{
+  float: left;
+  width: 30%;
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.column60ProductPDV{
+  float: left;
+  width: 60%;
+}
+/* PRODUCT > PDV > INCLUDE */
+.column1ProductPDVInclude{
+  float: left;
+  width: 1%;
+}
+.column3ProductPDVInclude{
+  float: left;
+  width: 3%;
+}
+.column30ProductPDVInclude1{
+  float: left;
+  width: 30%;
+  border-radius: 5px;
+  border: none;
+}
+.column30ProductPDVInclude2{
+  float: left;
+  width: 30%;
+  border-radius: 5px;
+  border: none;
+}
+.column94ProductPDVInclude{
+  float: left;
+  width: 94%;
+}
+/* OTHERS */
+.column4{
+  float: left;
+  width: 4%;
+}
+.column5{
+  float: left;
+  width: 5%;
+}
+.column10-5{
+  float: left;
+  width: 10.5%;
+}
+.column9{
+  float: left;
+  width: 10%;
+}
+.column16{
+  float: left;
+  width: 16%;
+}
+.column20{
+  float: left;
+  width: 20%;
 }
 .column80{
   float: left;

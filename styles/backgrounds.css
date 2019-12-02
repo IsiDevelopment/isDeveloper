@@ -27,3 +27,11 @@
   background: #f7f7f7;
   color: #3f3844;
 }
+.pdvBg{
+  background: #eeeeee;
+  line-height: normal !important;
+}
+.bgProducsPDVInclude{
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(95deg, #013A6B 30%, #004E95 10%);
+}

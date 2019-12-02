@@ -1,0 +1,22 @@
+.divProductIncludeTitle{
+  background: #004E95;
+  border-radius: 5px 5px 0 0;
+  padding: 5px;
+  color: white;
+  font-size: 19px;
+}
+.divProductIncludeItems{
+  background: white;
+  border-radius: 0 0 5px 5px;
+  padding: 5px;
+}
+.divProductIncludeItem{
+  border-bottom: 1px solid #707070;
+  padding: 12px 0;
+}
+.linkDownload{
+  color: #004E95;
+}
+.linkDownload:hover{
+  color: #013A6B;
+}
