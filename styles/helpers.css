@@ -1,3 +1,11 @@
+.headerBrand{
+  display: block;
+  float: left;
+  font-size: 25px;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
 .divProductIncludeTitle{
   background: #004E95;
   border-radius: 5px 5px 0 0;
@@ -6,7 +14,7 @@
   font-size: 19px;
 }
 .divProductIncludeItems{
-  background: white;
+  background: #eeeeee;
   border-radius: 0 0 5px 5px;
   padding: 5px;
 }
@@ -19,4 +27,10 @@
 }
 .linkDownload:hover{
   color: #013A6B;
+}
+.padding5px{
+  padding: 5px;
+}
+.colorWhite{
+  color: white;
 }

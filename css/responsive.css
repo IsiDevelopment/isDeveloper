@@ -79,10 +79,10 @@
   }
 }
 @media (min-width: 1300px) {
-  .row {
+  /*.row {
     margin-left: -30px;
     *zoom: 1;
-  }
+  }*/
   .row:before,
   .row:after {
     display: table;
@@ -401,10 +401,10 @@
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  .row {
+  /*.row {
     margin-left: -20px;
     *zoom: 1;
-  }
+  }*/
   .row:before,
   .row:after {
     display: table;

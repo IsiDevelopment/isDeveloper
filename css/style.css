@@ -779,7 +779,7 @@ p {
 .box-404 h2 {
   color: #F25C27;
   font-size: 80px;
-  line-height: 84px;
+  line-height: 72px;
   font-weight: normal;
   margin: 0;
 }
@@ -1120,9 +1120,9 @@ footer {
   .nav-collapse_ .nav ul li a:hover {
     background: #575757 !important;
   }
-  .row {
+  /*.row {
     padding: 0 20px;
-  }
+  }*/
   footer {
     padding-left: 20px;
     padding-right: 20px;

@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .advantageBgGray{
   background: #e9e4e8;
 }
@@ -18,10 +21,16 @@
   background-color: #013A6B;
   background-image: -webkit-linear-gradient(115deg, #013A6B 40%, #004E95 10%);
 }
-
+.bgBlackGray{
+  background: #241c1a;
+}
 .linearBgBlacckGray{
   background-color: #f7f7f7;
   background-image: -webkit-linear-gradient(0deg, #f7f7f7 35%, #241c1a 0%);
+}
+.linearBgWhiteGray{
+  background-color: white;
+  background-image: -webkit-linear-gradient(102deg, #eeeeee 60%, white 0%);
 }
 .grayBg{
   background: #f7f7f7;
@@ -34,4 +43,25 @@
 .bgProducsPDVInclude{
   background-color: #013A6B;
   background-image: -webkit-linear-gradient(95deg, #013A6B 30%, #004E95 10%);
+}
+.bgGreenSoft{
+  background: #00907A;
+  color: white;
+}
+.bgLogoBlack{
+  background: #1e150d
+}
+
+/*  CUSTOMIZED - PRODUCTS  */
+.bgGreenAlertBox{
+  background: #d2eac9;
+  color: #6b8f6e
+}
+.bgYellowAlertBox{
+  background: #f9f2c9;
+  color: #8a6D4B;
+}
+.bgBlueAlertBox{
+  background: #BBD2E8;
+  color: #386997;
 }

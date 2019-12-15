@@ -1,3 +1,7 @@
+.row{
+  margin-left: 0px !important;
+}
+
 /* HOME > CONTACT */
 .column5HomeContact{
   float: left;
@@ -11,17 +15,31 @@
   float: left;
   width: 25%;
 }
-.column55HomeContact{
+.column50HomeContact{
   float: left;
-  width: 55%;
+  width: 50%;
 }
-.column60HomeContactButton{
+.column50HomeContactButton{
   float: left;
-  width: 60%;
+  width: 50%;
 }
 .column3ProductPDVInclude{
   float: left;
   width: 3%;
+}
+@media screen and (max-width: 1300px){
+  .column25HomeContact{
+    float: left;
+    width: 2%;
+  }
+  .column50HomeContact{
+    float: left;
+    width: 96%;
+  }
+  .column50HomeContactButton{
+    float: left;
+    width: 100%;
+  }
 }
 /* PRODUCT > PDV > INFO */
 .column2ProductPDV{
@@ -48,6 +66,10 @@
   width: 60%;
 }
 /* PRODUCT > PDV > INCLUDE */
+.column0ProductPDVInclude{
+  float: left;
+  width: 0%;
+}
 .column1ProductPDVInclude{
   float: left;
   width: 1%;
@@ -72,32 +94,241 @@
   float: left;
   width: 94%;
 }
-/* OTHERS */
-.column4{
+@media screen and (max-width: 1300px){
+  .column0ProductPDVInclude{
+    float: left;
+    width: 1%;
+  }
+  .column3ProductPDVInclude{
+    float: left;
+    width: 100%;
+  }
+  .column94ProductPDVInclude{
+    float: left;
+    width: 98%;
+  }
+}
+/* PRODUCT > PDV > TYPE */
+.column0ProductPDVtype{
+  float: left;
+  width: 0%;
+}
+.column1ProductPDVtype{
+  float: left;
+  width: 1%;
+}
+.column3ProductPDVtype{
+  float: left;
+  width: 3%;
+}
+.column30ProductPDVtype{
+  float: left;
+  width: 30%;
+  background: #eeeeee;
+  border-radius: 5px;
+}
+.column30ProductCustomized{
+  float: left;
+  width: 30%;
+  border-radius: 5px;
+}
+.column94ProductPDVtype{
+  float: left;
+  width: 94%;
+}
+@media screen and (max-width: 1300px){
+  .column0ProductPDVtype{
+    float: left;
+    width: 1%;
+  }
+  .column1ProductPDVtype{
+    float: left;
+    width: 100%;
+  }
+  .column3ProductPDVtype{
+    float: left;
+    width: 100%;
+  }
+  .column30ProductPDVtype{
+    float: left;
+    width: 98%;
+  }
+  .column30ProductCustomized{
+    float: left;
+    width: 98%;
+  }
+}
+/*COLUMNS INTO TABLE OF PRODUCTS INCLUDES*/
+.column0ProductText{
+  float: left;
+  width: 0%;
+}
+.column2ProductText{
+  float: left;
+  width: 2%;
+}
+.column27ProductText{
+  float: left;
+  width: 27%;
+}
+.column67ProductText{
+  float: left;
+  width: 67%;
+}
+@media screen and (max-width: 1300px){
+  .column0ProductText{
+    float: left;
+    width: 1%;
+  }
+  .column2ProductText{
+    float: left;
+    width: 100%;
+  }
+  .column27ProductText{
+    float: left;
+    width: 96%;
+  }
+  .column67ProductText{
+    float: left;
+    width: 98%;
+  }
+}
+/*  FOOTER   */
+.column5Footer{
+  float: left;
+  width: 5%;
+  color: #F25C27;
+}
+.column15Footer{
+  float: left;
+  width: 15%;
+  color: #F25C27;
+}
+.column30Footer{
+  float: left;
+  width: 30%;
+  color: #F25C27;
+}
+.column15Footer a{
+  text-decoration: underline !important;
+}
+@media screen and (max-width: 1300px){
+  .column5Footer{
+    float: left;
+    width: 100%;
+  }
+  .column15Footer{
+    float: left;
+    width: 100%;
+  }
+  .column30Footer{
+    float: left;
+    width: 100%;
+  }
+}
+/*    HOME ADVANTAGE    */
+.column0HomeAdvantage{
+  float: left;
+  width: 0%;
+}
+.column4HomeAdvantage{
   float: left;
   width: 4%;
 }
-.column5{
-  float: left;
-  width: 5%;
-}
-.column10-5{
-  float: left;
-  width: 10.5%;
-}
-.column9{
-  float: left;
-  width: 10%;
-}
-.column16{
-  float: left;
-  width: 16%;
-}
-.column20{
+.column20HomeAdvantage{
   float: left;
   width: 20%;
 }
-.column80{
+@media screen and (max-width: 1300px){
+  .column0HomeAdvantage{
+    float: left;
+    width: 2%;
+  }
+  .column4HomeAdvantage{
+    float: left;
+    width: 100%;
+  }
+  .column20HomeAdvantage{
+    float: left;
+    width: 96%;
+  }
+}
+/*  ABOUT US INFORMATION*/
+.column10AboutInfo{
+  float: left;
+  width: 10%;
+}
+.column80AboutInfo{
   float: left;
   width: 80%;
+}
+
+/*  ABOUT US IMAGES   */
+.column0UsImagesFirst{
+  float: left;
+  width: 0%;
+}
+.column4UsImagesFirst{
+  float: left;
+  width: 4%;
+}
+.column4-5UsImagesFirst{
+  float: left;
+  width: 4.5%;
+}
+.column15UsImagesFirst{
+  float: left;
+  width: 15%;
+}
+.column0UsImagesSecond{
+  float: left;
+  width: 0%;
+}
+.column5UsImagesSecond{
+  float: left;
+  width: 5%;
+}
+.column12-5UsImagesSecond{
+  float: left;
+  width: 12.5%;
+}
+.column15UsImagesSecond{
+  float: left;
+  width: 15%;
+}
+.column0UsImagesThird{
+  float: left;
+  width: 0%;
+}
+.column10UsImagesThird{
+  float: left;
+  width: 10%;
+}
+.column15UsImagesThird{
+  float: left;
+  width: 15%;
+}
+.column17-5UsImagesThird{
+  float: left;
+  width: 17.5%;
+}
+
+/*   CUSTOMIZED - INFO   */
+.column10HCustomizedInfo{
+  float: left;
+  width: 10%;
+}
+.column80HCustomizedInfo{
+  float: left;
+  width: 80%;
+}
+@media screen and (max-width: 1300px){
+  .column10HCustomizedInfo{
+    float: left;
+    width: 5%;
+  }
+  .column80HCustomizedInfo{
+    float: left;
+    width: 90%;
+  }
 }

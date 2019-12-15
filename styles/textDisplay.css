@@ -28,17 +28,46 @@
   font-weight: 300;
   letter-spacing: 1px;
 }
+.textIsi{
+  color: white;
+  font-size: 30px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+}
 .textGeneralTitle{
+line-height: normal;
   color: black;
   font-size: 48px;
   font-family: "Open Sans",sans-serif;
   font-weight: 300;
 }
+.textGeneralTitleOrange{
+  padding: 10px 0;
+  color: #F25C27;
+  font-size: 48px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+  line-height: normal;
+}
+.textGeneralTitleWhite{
+  color: white;
+  font-size: 48px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+  line-height: normal;
+}
 .textInfoPDV{
   color: #707070;
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Open Sans",sans-serif;
   font-weight: 200;
+}
+.textAboutUsInfo{
+  color: white;
+  font-size: 23px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 200;
+  line-height: normal;
 }
 .textDownloadPDV{
   color: black;
@@ -89,4 +118,37 @@
 }
 .textPadding10{
   padding: 10px;
+}
+.textProductTypeTitle{
+  font-size: 19px;
+  color: black;
+}
+.text19PxNonColor{
+  font-size: 20px;
+}
+.textProductTypePrice{
+  font-size: 24px;
+  color: #013A6B;
+}
+.textAboutSQL{
+  font-size: 31px;
+  line-height: normal;
+}
+.text28Px{
+  font-size: 28px;
+  line-height: normal;
+}
+@media screen and (max-width: 1300px){
+  .textGeneralTitleOrange{
+    font-size: 35px;
+  }
+  .textGeneralTitleWhite{
+    font-size: 35px;
+  }
+  .textHomeContactTitle{
+    font-size: 35px;
+  }
+  .textGeneralTitle{
+    font-size: 35px;
+  }
 }
