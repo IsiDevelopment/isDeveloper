@@ -138,6 +138,38 @@ line-height: normal;
   font-size: 28px;
   line-height: normal;
 }
+.textPriceWebSite{
+  font-size: 50px;
+  color: black;
+  line-height: normal;
+}
+.textPriceMonedaWebSite{
+  font-size: 25px;
+  color: black;
+  line-height: normal;
+}
+.textPriceTextWebSite{
+  font-size: 20px;
+  color: black;
+  line-height: normal;
+}
+.breakPoint{
+  display: block;
+}
+.textLittleLetters{
+  font-size: 11px;
+}
+.textWebSiteInclude{
+  font-size: 19px;
+  line-height: normal;
+  font-weight: 200;
+}
+.textWebSiteIncludeDetail{
+  font-size: 15px;
+  line-height: normal;
+  font-weight: 200;
+  padding: 5px;
+}
 @media screen and (max-width: 1300px){
   .textGeneralTitleOrange{
     font-size: 35px;
@@ -150,5 +182,8 @@ line-height: normal;
   }
   .textGeneralTitle{
     font-size: 35px;
+  }
+  .breakPoint{
+    display: none;
   }
 }

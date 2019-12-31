@@ -9,3 +9,9 @@
 .imagePDVInclude{
   border-radius: 1px;
 }
+.round15All{
+  border-radius: 15px;
+}
+.round5Up{
+  border-radius: 15px 15px 0 0;
+}

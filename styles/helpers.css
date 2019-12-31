@@ -34,3 +34,20 @@
 .colorWhite{
   color: white;
 }
+.colorBlack{
+  color: black;
+}
+.shadowBoxes{
+   -moz-box-shadow:    inset 0 0 5px #878787;
+   -webkit-box-shadow: inset 0 0 5px #878787;
+   box-shadow:         inset 0 0 5px #878787;
+}
+.opacityImage{
+  opacity: 1;
+}
+.opacityImage:hover{
+  opacity: 0.5;
+}
+.width60{
+  width: 60%;
+}

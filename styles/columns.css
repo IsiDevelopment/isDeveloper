@@ -136,6 +136,15 @@
   float: left;
   width: 94%;
 }
+/*  WEBSITES - PRICES  */
+.column1WebsitesPrices{
+  float: left;
+  width: 0%;
+}
+.column4WebsitesPrices{
+  float: left;
+  width: 4%;
+}
 @media screen and (max-width: 1300px){
   .column0ProductPDVtype{
     float: left;
@@ -145,7 +154,15 @@
     float: left;
     width: 100%;
   }
+  .column1WebsitesPrices{
+    float: left;
+    width: 100%;
+  }
   .column3ProductPDVtype{
+    float: left;
+    width: 100%;
+  }
+  .column4WebsitesPrices{
     float: left;
     width: 100%;
   }
@@ -328,6 +345,70 @@
     width: 5%;
   }
   .column80HCustomizedInfo{
+    float: left;
+    width: 90%;
+  }
+}
+
+/*   WEBSITE - INCLUDE   */
+.column0WebSiteComponent{
+  float: left;
+  width: 0%;
+}
+.column4WebSiteComponent{
+  float: left;
+  width: 4%;
+}
+.column19-5WebSiteComponent{
+  float: left;
+  width: 19.5%;
+}
+@media screen and (max-width: 1300px){
+  .column0WebSiteComponent{
+    float: left;
+    width: 3%;
+  }
+  .column4WebSiteComponent{
+    float: left;
+    width: 100%;
+  }
+  .column19-5WebSiteComponent{
+    float: left;
+    width: 94%;
+  }
+}
+
+/*  WEBSITE - CKECK TEMPLATES  */
+.column0WebSiteTemplate{
+  float: left;
+  width: 0%;
+}
+.column2WebSiteTemplate{
+  float: left;
+  width: 2%;
+}
+.column3-5WebSiteTemplate{
+  float: left;
+  width: 3.5%;
+}
+.column17WebSiteTemplate{
+  float: left;
+  width: 17%;
+}
+@media screen and (max-width: 1300px){
+  .column0WebSiteTemplate{
+    float: left;
+    width: 5%;
+  }
+  .column2WebSiteTemplate{
+    float: left;
+    width: 100%;
+  }
+  .column3-5WebSiteTemplate{
+    float: left;
+    width: 100%;
+  }
+  .column17WebSiteTemplate{
     float: left;
     width: 90%;
   }
