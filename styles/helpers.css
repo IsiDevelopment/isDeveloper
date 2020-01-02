@@ -51,3 +51,13 @@
 .width60{
   width: 60%;
 }
+.errorMsg{
+  color: red;
+  font-size: 12px;
+}
+.noDisplay{
+  display: none;
+}
+.yesDisplay{
+  display: block;
+}

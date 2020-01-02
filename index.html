@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="styles/backgrounds.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="styles/rounds.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="styles/buttons.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="styles/helpers.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="styles/inputs.css" type="text/css" media="screen">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery.js"></script>
@@ -329,7 +330,8 @@
 				<div class="row">
 					<div class="column50HomeContactButton">&nbsp;</div>
 					<div class="column50HomeContactButton textCenter">
-						<button class="butHomeContactMessage">Enviar</button>
+						<button class="butHomeContactMessage" onclick="sendEmail()">Enviar</button>
+						<span id="errorMsgEmail" class="errorMsg noDisplay">Por favor, llene todos los campos</span>
 					</div>
 				</div>
 			</div>
