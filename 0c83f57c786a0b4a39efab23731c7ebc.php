@@ -10,11 +10,11 @@
   }
   function sendEmail(){
     $name = 'Nombre: ' . $_POST['name'] . '\n';
-    $phone = $_POST['phone'] . '\n';
-    $email = $_POST['email'] . '\n';
-    $bodyMsg = $_POST['bodyMsg'] . '\n';
+    $phone = 'Telefono: ' . $_POST['phone'] . '<br/>';
+    $email = 'email: ' . $_POST['email'] . '<br/>';
+    $bodyMsg = 'Cuerpo: ' . $_POST['body'] . '<br/>';
     $msg = $name . $phone . $email . $bodyMsg;
-    $mail_status = mail("info@isidevelopment.com","Mensaje desde pagina web\n",$msg);
+    $mail_status = mail("info@isidevelopment.com","Mensaje desde pagina web",$msg);
     if($mail_status)
       echo json_encode('Done');
     else

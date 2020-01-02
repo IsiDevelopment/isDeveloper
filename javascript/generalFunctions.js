@@ -4,8 +4,8 @@ function hideDiv(item){
   });
 }
 //var environment = 'http://192.168.0.6/isdeveloper/' //local
-//var environment = 'https://isidevelopment.github.io/isdeveloper/' //github
-var environment = 'http://www.isidevelopment.com/' //production
+var environment = 'https://isidevelopment.github.io/isdeveloper/' //github
+//var environment = 'http://www.isidevelopment.com/' //production
 function gotoHome(){
   location.href = environment
 }
@@ -45,6 +45,12 @@ function validateFields(){
     return true
   }
 }
+function clearFields(){
+  $('#contactName').val('')
+  $('#contactPhone').val('')
+  $('#contactEmail').val('')
+  $('#contactMessage').val('')
+}
 function sendEmailAjax(namePerson, phonePerson, emailPerson, bodyPerson){
   $.ajax({
     url: 'http://www.isidevelopment.com/0c83f57c786a0b4a39efab23731c7ebc.php',
@@ -58,8 +64,10 @@ function sendEmailAjax(namePerson, phonePerson, emailPerson, bodyPerson){
     dataType: 'json',
     type: 'POST',
     success: function (output) {
-      if(output == 'Done')
+      if(output == 'Done'){
         alert('Mensaje enviado corractamente')
+        clearFields()
+      }
       else{
         alert('Error al enviar mensaje')
       }
