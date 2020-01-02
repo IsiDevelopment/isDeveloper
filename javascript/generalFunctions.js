@@ -3,10 +3,9 @@ function hideDiv(item){
     $('#' + item).slideToggle('slow')
   });
 }
-//local = http://192.168.0.6/isdeveloper/
-//github = https://isidevelopment.github.io/isdeveloper/
-//production = http://www.isidevelopment.com/
-var environment = 'https://isidevelopment.github.io/isdeveloper/'
+//var environment = 'http://192.168.0.6/isdeveloper/' //local
+var environment = 'https://isidevelopment.github.io/isdeveloper/' //github
+//var environment = 'http://www.isidevelopment.com/' //production
 function gotoHome(){
   location.href = environment
 }
