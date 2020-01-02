@@ -61,18 +61,17 @@
 							<a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
 							<div class="nav-collapse nav-collapse_  collapse">
 								<ul class="nav sf-menu">
-									<li><a href="http://192.168.0.6/isdeveloper/">Inicio</a></li>
+									<li><a onclick="gotoHome()">Inicio</a></li>
 									<li class="sub-menu active"><a>Productos</a>
 										<ul>
-											<li><a href="http://192.168.0.6/isdeveloper/pdv">Puntos de Venta</a></li>
-											<li><a href="#">Sitios Web</a></li>
+											<li><a onclick="gotoPDV()">Puntos de Venta</a></li>
+											<li><a onclick="gotoWebSites()">Sitios Web</a></li>
 											<li><a href="#">Aplicaciones  M&oacute;viles</a></li>
-											<li><a href="#">Sistemas a la medida</a></li>
+											<li><a onclick="gotoCustomized()">Sistemas a la medida</a></li>
 										</ul>
 									</li>
-									<li><a href="contact.html">Plantillas</a></li>
-									<li><a href="contact.html">Nosotros</a></li>
-									<li><a href="http://192.168.0.6/isdeveloper/#contact">Contacto</a></li>
+									<li><a onclick="gotoAboutUs()">Nosotros</a></li>
+									<li><a onclick="gotoContact()">Contacto</a></li>
 								</ul>
 							</div>
 						</div>
@@ -97,7 +96,7 @@
 						acad&eacute;micos, sociales, de finanzas,
 						administrativos, publicitarios, etc., hasta proyectos empresariales, ya que
 						somos expertos en adaptarnos a tus necesidades.
-						<a href="http://192.168.0.6/isdeveloper/#contact"
+						<a onclick="gotoContact()"
 						style="text-decoration: underline; color: blue">
 							Cont&aacute;ctanos aqu&iacute;
 						</a>
@@ -340,22 +339,22 @@
 		<div class="row textCenter">
 			<div class="column5Footer">&nbsp;</div>
 			<div class="column15Footer textCenter">
-				<a href="#">Acerca de nosotros</a>
+				<a onclick="gotoHome()">Inicio</a>
 			</div>
 			<div class="column15Footer textCenter">
-				<a href="http://192.168.0.6/isdeveloper/#contact">Contacto</a>
+				<a onclick="gotoPDV()">Desarrollo de puntos de venta</a>
 			</div>
 			<div class="column15Footer textCenter">
-				<a href="#">Desarrollo de sitios web</a>
+				<a onclick="gotoWebSites()">Desarrollo de sitios web</a>
 			</div>
 			<div class="column15Footer textCenter">
 				<a href="#">Aplicaciones m&oacute;viles</a>
 			</div>
 			<div class="column15Footer textCenter">
-				<a href="#">Sistemas a la medida</a>
+				<a onclick="gotoAboutUs()">Acerca de nosotros</a>
 			</div>
 			<div class="column15Footer textCenter">
-				<a href="http://192.168.0.6/isdeveloper/">Inicio</a>
+				<a onclick="gotoContact()">Contacto</a>
 			</div>
 			<div class="column5Footer">&nbsp;</div>
 		</div>
